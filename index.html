@@ -67,25 +67,12 @@
     </p>
 
     <h2 id="using_it">Using it</h2>
-	<div class="notice">
-		<p>NOTICE: Lifty currently has some limitations caused by the ancient version of scalate that I'm using: </p>
-		<ul>
-			<li>It doesn't work on windows</li>
-			<li>It can't handle paths with space in it</li>
-		</ul>
-		<p>This limitation is due to the fact that sbt processor have to be built using scala 2.7.7 and the scala 2.7.7 branch of scalate haven't been actively developed on for over a year and thus has a few bugs in it. If none of these cases apply to you you shouldn't have any problems :) </p>
-	</div>
 		
     <p>Start SBT in an existing project or create a new one and type the following in the regular SBT prompt:</p>
-    <pre><code>*lifty is org.lifty lifty 1.5</code></pre>
+    <pre><code>*lifty is org.lifty lifty 1.6</code></pre>
     <p><strong>NB</strong>: The * (asterisk) is important, it tells SBT that it's a processor-related command. You're declaring a processor in this lise. The first argument "lifty" is the name of the processor. You can pick any name you like. You will use this name to run the processor in the future.</p>
     <p>Congratulations, you've now got a lift processor to make you more effective! You can now use the processor as you would any other SBT command.</p>
-    
-    <p><strong>Using the snapshot</strong></p>
-    <p>If you feel like living on the edge you can use the SNAPSHOT version of the processor like this
-    <pre><code>*scalatoolssnapshot at http://www.scala-tools.org/repo-snapshots/
-*liftysnap is org.lifty lifty 1.5-SNAPSHOT</code></pre></p>
-    
+        
     <h3 id="commands">Commands</h3>
     <p>The processor supports the following commands:</p>
     <ul>
@@ -117,7 +104,7 @@
     <ul>
       <li><strong>Group</strong>: org.lifty </li>
       <li><strong>Artifact</strong>: lifty_2.7.7</li>
-      <li><strong>Version</strong>: 1.5</li>
+      <li><strong>Version</strong>: 1.6</li>
     </ul>
     
     <h2 id="getting_the_code">Getting the code</h2>
