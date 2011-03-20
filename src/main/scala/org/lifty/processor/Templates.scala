@@ -8,7 +8,7 @@ import org.lifty.processor.LiftHelper._
 import net.liftweb.common._
 
 object CONSTANTS {
-  val LIFTVERSION = "2.2"
+  val LIFTVERSION = "2.3-RC3"
 }
 
 trait DefaultLiftTemplate extends Template with Create with Delete {
@@ -138,7 +138,7 @@ object DependencyFactory extends DefaultLiftTemplate {
 
   def name = "dependencyFactory"
 
-  def description = "I really don't know what this is used for, Tim? David?"
+  def description = "Create's a sample DependencyFactory that utilizes Lift Injector types"
 
   def arguments = pack :: Nil
 

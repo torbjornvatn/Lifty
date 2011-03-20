@@ -4,10 +4,7 @@
 
 package ${modelpack}
 
-import net.liftweb._
-import mapper._
-import util._
-import common._
+import net.liftweb.mapper._
 
 class ${modelName} extends LongKeyedMapper[${modelName}] with IdPK {
 
